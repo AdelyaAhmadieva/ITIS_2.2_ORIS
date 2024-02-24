@@ -1,0 +1,43 @@
+
+
+.header-container{
+    height: 140px;
+    display: flex;
+    align-items: baseline;
+    background-color: #072AC8;
+    color: #ffffff;
+}
+.pokeball-image{
+    position: absolute;
+    max-width: 300px;
+    margin-left: calc(100% - 200px) ;
+    margin-top: -30px;
+}
+
+.search-container{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-container{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 24px;
+    background: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.input{
+    width: 70%;
+    border: none;
+    outline: 0;
+}
+
+

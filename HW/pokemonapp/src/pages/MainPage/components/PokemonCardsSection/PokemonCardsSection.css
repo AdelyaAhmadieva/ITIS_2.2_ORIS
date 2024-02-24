@@ -1,0 +1,17 @@
+.pokemon-cards-list{
+    background: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 10px;
+}
+
+.pagination-container{
+    z-index: 99999;
+    position: fixed;
+
+}
