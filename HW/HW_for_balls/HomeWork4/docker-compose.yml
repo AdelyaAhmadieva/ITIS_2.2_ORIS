@@ -1,0 +1,42 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
+
+version: '3.4'
+
+networks:
+  my-network:
+    driver: bridge
+
+services:
+  pokemonsapiweb:
+    image: pokemon-api:local
+    container_name: pokemon-back
+    build:
+      context: .
+      dockerfile: PokemonsAPI/PokemonsAPI.WEB/Dockerfile
+    ports:
+      - "8080:5121"
+    depends_on:
+      - db
+    networks:
+      - my-network
+  db:
+    image: postgres
+    restart: always
+    container_name: pokemon-psql
+    environment:
+      - POSTGRES_DB=PokeApi
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - my-network
+  pokemonapp:
+    image: pokemonapp:local
+    build:
+      context: ./pokemon-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network

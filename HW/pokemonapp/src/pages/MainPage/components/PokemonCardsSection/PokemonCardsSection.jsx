@@ -4,7 +4,7 @@ import PokemonCard from '../PokemonCard/PokemonCard'
 import './PokemonCardsSection.css'
 
 const PokemonCardsSection = (data) => {
-    const [poke, setPoke] = useState([])
+    const [poke, setPoke] = useState([]) /* pokemons Array */
     const [filteredPoke, setFilteredPoke] = useState([])
 
     const [page, setPage] = useState(0);
@@ -13,10 +13,11 @@ const PokemonCardsSection = (data) => {
     const [secondSearchFrame, setSecondSearchFrame] = useState(20)
 
     async function getPoke(){
-        const responce = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1000')
+        const responce = await fetch('https://pokeapi.co/api/v2/pokemon?limit=1000')/* change to url localhost */
         const data = await responce.json()
         setPoke(data.results)
         setFilteredPoke(data.results)
+        /* setPoke(data) -> props: data.name, id, img, ... */
     }
 
     function filter(filter){

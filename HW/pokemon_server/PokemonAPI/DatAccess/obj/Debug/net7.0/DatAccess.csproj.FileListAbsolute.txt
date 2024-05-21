@@ -1,0 +1,13 @@
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\bin\Debug\net7.0\DatAccess.deps.json
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\bin\Debug\net7.0\DatAccess.dll
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\bin\Debug\net7.0\DatAccess.pdb
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.csproj.AssemblyReference.cache
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.AssemblyInfoInputs.cache
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.AssemblyInfo.cs
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.csproj.CoreCompileInputs.cache
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.sourcelink.json
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.dll
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\refint\DatAccess.dll
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\DatAccess.pdb
+C:\Users\Adelya\_repos\ITIS_2.2_ORIS\HW\pokemon_server\PokemonAPI\DatAccess\obj\Debug\net7.0\ref\DatAccess.dll
